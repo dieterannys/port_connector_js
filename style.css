@@ -1,0 +1,42 @@
+/*SVG part*/
+#canvas {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    border: 2px solid #666;
+}
+
+body { 
+    overflow: hidden;
+}
+
+.cabcircle {
+    stroke-width: 1px;
+    stroke: #CCC;
+    fill: none;
+    stroke-dasharray: 1 1;
+}
+
+.portcircle {
+    stroke-width: 2px;
+    stroke: #fff;
+    fill: #CCC;
+}
+
+.devarc {
+    stroke-width: 2px;
+    stroke: #FA3;
+    fill: none;
+}
+
+.porttext {
+    font-size: 0.4em;
+    font-weight: bold;
+}
+
+.devtext {
+    font-size: 1em;
+    font-weight: bold;
+    fill: #000;
+    stroke: #000;
+}
