@@ -20,12 +20,12 @@ body {
 .portcircle {
     stroke-width: 2px;
     stroke: #fff;
-    fill: #CCC;
+    fill: #CDD;
 }
 
 .devarc {
     stroke-width: 2px;
-    stroke: #FA3;
+    stroke: #233;
     fill: none;
 }
 
@@ -35,8 +35,30 @@ body {
 }
 
 .devtext {
-    font-size: 1em;
+    font-size: 0.6em;
     font-weight: bold;
-    fill: #000;
-    stroke: #000;
+    fill: #9AA;
+}
+
+.cable {
+    stroke-width: 1px;
+    stroke-linecap: round;
+}
+
+.cablestroke {
+    stroke: #fff;
+    stroke-width: 2px;
+    stroke-linecap: round;
+}
+
+.cabtext {
+    font-size: 0.6em;
+    font-weight: bold;
+    fill: #BBB;
+}
+
+#dragline {
+    stroke-width: 1px;
+    stroke: #CCC;
+    stroke-dasharray: 1 1;
 }
